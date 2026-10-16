@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="farmer-icon.png">
+</head>
+<body>
+    <div id="game-display">
+        <div id="game-panel">
+            <div id="brand-panel">
+                <p id="game-title">Mazer</p>
+                <p id="dev-title">by freshStream</p>
+            </div>
+            <p id="level-title"></p>
+        </div>
+        <canvas></canvas>
+        <div id="btn-block">
+            <button id="save-btn">Сохранить</button>
+            <button id="gen-btn">Генерация</button>   
+        </div>
+    </div>
+    <div id="rating-zone">
+        <p id="rating-title">Рейтинг</p>
+        <div class="table-container">
+            <table id="rating-table">
+                <thread>
+                    <tr>
+                        <th class="table-cell user-cell head-cell">Пользователь</th>
+                        <th class="table-cell level-cell head-cell">Уровень</th>
+                    </tr>
+                </thread>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
